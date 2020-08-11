@@ -26,7 +26,7 @@ const initData = (message, warg) => {
           human: 0,
           other: 0,
           alive: 0,
-          point: 0,
+          point: -1,
           mvp: 0,
           name: message.guild.members.cache.get(uid).displayName
         })
